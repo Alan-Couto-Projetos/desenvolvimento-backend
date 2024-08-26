@@ -1,0 +1,80 @@
+// {
+//   "presets": ["@babel/preset-env"],
+//   "plugins": [
+//     ["@babel/plugin-proposal-decorators", { "legacy": true }],
+//     ["@babel/plugin-proposal-class-properties", { "loose": true }], //linha adicionada deepois
+//     [
+//       "@babel/plugin-transform-runtime",
+//       {
+//         "regenerator": true
+//       }
+//     ]
+//   ]
+// }
+
+
+
+// {
+//   "presets": [
+//     "@babel/preset-env"
+//   ],
+//   "plugins": [
+//     ["@babel/plugin-proposal-decorators", { "legacy": true }],
+//     ["@babel/plugin-proposal-class-properties", { "loose": true }],
+//     ["@babel/plugin-transform-private-methods", { "loose": true }],
+//     ["@babel/plugin-transform-private-property-in-object", { "loose": true }],
+//     ["@babel/plugin-transform-runtime"]
+//   ]
+// }
+
+
+// {
+//   "presets": ["@babel/preset-env"],
+//   "plugins": [
+//     ["@babel/plugin-proposal-decorators", { "legacy": true }],
+//     ["@babel/plugin-proposal-class-properties", { "loose": true }],
+//     [
+//       "@babel/plugin-transform-runtime",
+//       {
+//         "regenerator": true
+//       }
+//     ]
+//   ]
+// }
+
+
+// {
+//   "presets": ["@babel/preset-env"],
+//   "plugins": [
+//     ["@babel/plugin-proposal-decorators", { "legacy": true }],
+//     ["@babel/plugin-proposal-class-properties", { "loose": true }],
+//     ["@babel/plugin-transform-private-methods", { "loose": true }],
+//     ["@babel/plugin-transform-private-property-in-object", { "loose": true }],
+//     ["@babel/plugin-transform-runtime", { "regenerator": true }]
+//   ]
+// }
+
+
+// {
+//   "presets": ["@babel/preset-env"],
+//   "plugins": [
+//     ["@babel/plugin-proposal-decorators", { "legacy": true }],
+//     ["@babel/plugin-proposal-class-properties", { "loose": true }],
+//     ["@babel/plugin-transform-private-methods", { "loose": true }],
+//     ["@babel/plugin-transform-private-property-in-object", { "loose": true }],
+//     ["@babel/plugin-transform-runtime", { "regenerator": true }]
+//   ]
+// }
+
+
+
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    ["@babel/plugin-transform-private-methods", { "loose": true }],
+    ["@babel/plugin-transform-private-property-in-object", { "loose": true }],
+    ["@babel/plugin-transform-runtime", { "regenerator": true }]
+  ]
+}
